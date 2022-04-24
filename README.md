@@ -4,7 +4,7 @@ Photo-portfolio is a Gatsby minimal TypeScript starter website
 
 ## 🚀 Quick start
 
-    Navigate into the site’s directory (cmp.photo) and start it up.
+    Navigate into the site’s directory (cmp.photo) and start it up:
 
     cd cmp.photo/
     npm run develop
@@ -15,7 +15,7 @@ Photo-portfolio is a Gatsby minimal TypeScript starter website
     yarn develop
     
 
-    You can now view the site in the browser at `http://localhost:8000/`.
+    You can now view the site in the browser at http://localhost:8000/.
 
  **Learn more**
 
