@@ -1,0 +1,33 @@
+$font-stack: "Poppins", -apple-system, Roboto, sans-serif, serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.container {
+  margin: auto;
+  padding: 1vw 4vw;
+}
+
+.heading {
+    color: "#000";
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 1vw
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-text {
+    color: #000;
+    text-decoration: none;
+    &:active {
+        color: inherit;
+    }
+}

@@ -18,12 +18,20 @@ const config: GatsbyConfig = {
     },
     __key: "images"
   }, {
-    resolve: 'gatsby-source-filesystem',
+    resolve: "gatsby-source-filesystem",
     options: {
       "name": "pages",
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: "gatsby-plugin-google-fonts",
+    options: {
+      fonts: [
+       "Poppins"
+      ],
+      display: "swap"
+    }
   }]
 };
 
